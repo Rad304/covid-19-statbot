@@ -14,7 +14,7 @@ module.exports = {
                 .addField('!stats [country]', "To get a country statistics!", true)
             msg.channel.send(embedsay);
         } else {
-            let country_name = args[0];
+            let country_name = args.join(' ');
             (async () => {
                 const rawResponse = await fetch('https://coronavirus-monitor.p.rapidapi.com/coronavirus/cases_by_country.php', {
                     method: 'GET',
