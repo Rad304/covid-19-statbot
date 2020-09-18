@@ -1,6 +1,6 @@
 # COVID-19 Discord bot
 
-This is a Covid-19 Tracker Discord bot made using Node & Discord API 
+This is a COVID-19 Tracker Discord bot made using Node & Discord API 
 
 ## Requirements
 
